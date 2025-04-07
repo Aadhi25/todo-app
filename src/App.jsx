@@ -142,7 +142,6 @@ export default function App() {
           {/* Pagination Component */}
           <Paginate
             todosPerPage={todosPerPage}
-            currPage={currPage}
             todos={todos}
             setCurrPage={setCurrPage}
           />

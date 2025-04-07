@@ -1,7 +1,7 @@
 import React from "react";
 import Pagination from "@mui/material/Pagination";
 
-const Paginate = ({ todosPerPage, currPage, todos, setCurrPage }) => {
+const Paginate = ({ todosPerPage, todos, setCurrPage }) => {
   const paginationNums = [];
   for (let i = 1; i <= Math.ceil(todos.length / todosPerPage); i++) {
     paginationNums.push(i);
